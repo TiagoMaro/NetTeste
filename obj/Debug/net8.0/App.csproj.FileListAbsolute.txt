@@ -12,3 +12,4 @@
 /home/maro/Documentos/Projetos/Net/App/obj/Debug/net8.0/App.pdb
 /home/maro/Documentos/Projetos/Net/App/obj/Debug/net8.0/App.genruntimeconfig.cache
 /home/maro/Documentos/Projetos/Net/App/obj/Debug/net8.0/ref/App.dll
+/home/maro/Documentos/Projetos/Net/App/obj/Debug/net8.0/App.sourcelink.json
