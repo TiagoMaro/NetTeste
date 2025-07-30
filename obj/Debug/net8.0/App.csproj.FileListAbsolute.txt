@@ -1,0 +1,14 @@
+/home/maro/Documentos/Projetos/Net/App/bin/Debug/net8.0/App
+/home/maro/Documentos/Projetos/Net/App/bin/Debug/net8.0/App.deps.json
+/home/maro/Documentos/Projetos/Net/App/bin/Debug/net8.0/App.runtimeconfig.json
+/home/maro/Documentos/Projetos/Net/App/bin/Debug/net8.0/App.dll
+/home/maro/Documentos/Projetos/Net/App/bin/Debug/net8.0/App.pdb
+/home/maro/Documentos/Projetos/Net/App/obj/Debug/net8.0/App.GeneratedMSBuildEditorConfig.editorconfig
+/home/maro/Documentos/Projetos/Net/App/obj/Debug/net8.0/App.AssemblyInfoInputs.cache
+/home/maro/Documentos/Projetos/Net/App/obj/Debug/net8.0/App.AssemblyInfo.cs
+/home/maro/Documentos/Projetos/Net/App/obj/Debug/net8.0/App.csproj.CoreCompileInputs.cache
+/home/maro/Documentos/Projetos/Net/App/obj/Debug/net8.0/App.dll
+/home/maro/Documentos/Projetos/Net/App/obj/Debug/net8.0/refint/App.dll
+/home/maro/Documentos/Projetos/Net/App/obj/Debug/net8.0/App.pdb
+/home/maro/Documentos/Projetos/Net/App/obj/Debug/net8.0/App.genruntimeconfig.cache
+/home/maro/Documentos/Projetos/Net/App/obj/Debug/net8.0/ref/App.dll
