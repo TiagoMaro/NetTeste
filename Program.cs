@@ -1,12 +1,13 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System;
+using App.Models;
 
 int idPessoa = 1;
 while (true)
 {
     Console.Clear();
     Console.WriteLine("Deseja cadastrar uma nova pessoa? (s/n)");
-    string resposta = Console.ReadLine()?.ToLower() ?? "n";
+    string resposta = Console.ReadLine()?.ToLower() ?? "";
 
 
     if (resposta == "n")
@@ -29,7 +30,16 @@ while (true)
         Console.Write("Digite sua idade: ");
         idadeInput = Console.ReadLine() ?? string.Empty;
 
-        var pessoa = new Pessoa(idPessoa, nome, idadeInput != string.Empty ? int.Parse(idadeInput) : 0);
+        int idade = 0;
+        if (!int.TryParse(idadeInput, out idade))
+        {
+            Console.WriteLine("Idade inválida. Por favor, digite um número inteiro.");
+            Console.WriteLine("Pressione qualquer tecla para continuar...");
+            Console.ReadKey();
+            continue;
+        }
+
+        var pessoa = new Pessoa(idPessoa, nome, idade);
         pessoa.Apresentar();
         Console.WriteLine(pessoa.Id);
         Console.WriteLine("Pressione qualquer tecla para continuar...");
